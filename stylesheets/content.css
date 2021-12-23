@@ -112,7 +112,7 @@ div.sq4, div.sq5 {
 }
 div.sq4 h1 {
   position:absolute;
-  transform: translate(0, 16%);
+  transform: translate(2%, 16%);
 }
 .sq4 {
   width: 33.4%;
@@ -133,9 +133,9 @@ div.sq4 h1 {
 }
 div.sq5 h1 {
   position:absolute;
-  transform: translate(0, 6%);
+  transform: translate(2.5%, 6%);
   width: 120%;
-  color: #FFFFFF;
+  color: #000000;
 }
 .call {
   width: 90%;
@@ -260,7 +260,7 @@ div.sq14 h2 {
 div.sq15 h1 {
   color: #FFFFFF;
   position:absolute;
-  transform: translate(23%, 95%);
+  transform: translate(26%, 95%);
 }
 .sq16 {
   width: 46.6%;
@@ -311,7 +311,7 @@ div.sq18 h2 {
 }
 div.sq20 h1 {
   position:absolute;
-  transform: translate(0%, 60%);
+  transform: translate(2%, 60%);
   width: 100%;
   color: #000000;
 }
