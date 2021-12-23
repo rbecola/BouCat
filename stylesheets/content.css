@@ -381,3 +381,9 @@ color: #000000;
   position: absolute;
   transform: translate(100.5%, -2%);
 }
+.sitgun {
+  width: 30%;
+  height: auto;
+  position: absolute;
+  transform: translate(228%, -505%);
+}
