@@ -319,21 +319,6 @@ color: #000000;
   vertical-align: top;
   background-color: #FFFFFF;
 }
-/* div.sq21 p.name {
-position:relative;
-transform: translate(0%, 120%);
-color: #000000;
-}
-div.sq21 p.number {
-position:relative;
-transform: translate(50%, 20%);
-color: #000000;
-}
-div.sq21 p.alina {
-position:relative;
-transform: translate(63%, -80%);
-color: #000000;
-} */
   .logo {
     width: 80%;
     height: 80%;
@@ -373,4 +358,7 @@ color: #000000;
   position: absolute;
   transform: translate(11%, 300%);
   z-index: 1;
+}
+.glasses {
+  z-index: 2;
 }
