@@ -1,8 +1,6 @@
 body {
   margin: 0;
   height: auto;
-    /* background: url(1441.png);
-    background-size: cover; */
   .grid {
     margin: 0% 0%;
     padding: 0px 0.893vw;
@@ -113,8 +111,8 @@ div.sq4, div.sq5 {
   position: relative;
 }
 div.sq4 h1 {
-position:absolute;
-transform: translate(0, 16%);
+  position:absolute;
+  transform: translate(0, 16%);
 }
 .sq4 {
   width: 33.4%;
@@ -134,10 +132,10 @@ transform: translate(0, 16%);
   background-color: #FF0000;
 }
 div.sq5 h1 {
-position:absolute;
-transform: translate(0, 6%);
-width: 120%;
-color: #FFFFFF;
+  position:absolute;
+  transform: translate(0, 6%);
+  width: 120%;
+  color: #FFFFFF;
 }
 .call {
   width: 90%;
@@ -172,10 +170,10 @@ color: #FFFFFF;
   background-color: #C4C4C4;
 }
 div.sq8 h2 {
-position:absolute;
-transform: translate(0, 95%);
-width: 120%;
-color: #000000;
+  position:absolute;
+  transform: translate(0, 95%);
+  width: 120%;
+  color: #000000;
 }
 .sq9 {
   width: 33.4%;
@@ -218,10 +216,10 @@ color: #000000;
   background-color: #000000;
 }
 div.sq12 h2 {
-position:absolute;
-transform: translate(7%, 7%);
-width: 90%;
-color: #FFFFFF;
+  position:absolute;
+  transform: translate(7%, 7%);
+  width: 90%;
+  color: #FFFFFF;
 }
 .sq13 {
   width: 33.4%;
@@ -241,10 +239,10 @@ color: #FFFFFF;
   background-color: #D8D8D8;
 }
 div.sq14 h2 {
-position:absolute;
-transform: translate(-1%, 110%);
-width: 100%;
-color: #000000;
+  position:absolute;
+  transform: translate(-1%, 110%);
+  width: 100%;
+  color: #000000;
 }
 .sq15 {
   width: 66.6%;
@@ -289,8 +287,8 @@ div.sq15 h1 {
   background-color: #939393;
 }
 div.sq18 h2 {
-position:absolute;
-transform: translate(2%, 60%);
+  position:absolute;
+  transform: translate(2%, 60%);
 }
 .sq19 {
   width: 53.4%;
@@ -312,10 +310,10 @@ transform: translate(2%, 60%);
   background-color: #D7D7D7;
 }
 div.sq20 h1 {
-position:absolute;
-transform: translate(0%, 60%);
-width: 100%;
-color: #000000;
+  position:absolute;
+  transform: translate(0%, 60%);
+  width: 100%;
+  color: #000000;
 }
 .sq21 {
   width: 100%;
@@ -326,19 +324,19 @@ color: #000000;
   vertical-align: top;
   background-color: #FFFFFF;
 }
-  .logo {
-    width: 80%;
-    height: 80%;
-    top: 10%;
-    left: 10%;
-    position: absolute;
-  }
+.logo {
+  width: 80%;
+  height: 80%;
+  top: 10%;
+  left: 10%;
+  position: absolute;
+}
 .cat {
   width: 95%;
   height: 90%;
   position: absolute;
   top:21%;
-  left:-4%;
+  left:2%;
   z-index: 2;
 }
 
