@@ -322,7 +322,7 @@ color: #000000;
   vertical-align: top;
   background-color: #FFFFFF;
 }
-div.sq21 p.name {
+/* div.sq21 p.name {
 position:relative;
 transform: translate(0%, 120%);
 color: #000000;
@@ -336,7 +336,7 @@ div.sq21 p.alina {
 position:relative;
 transform: translate(63%, -80%);
 color: #000000;
-}
+} */
   .logo {
     width: 80%;
     height: 80%;
@@ -369,4 +369,10 @@ color: #000000;
   height: auto;
   position: absolute;
   transform: translate(910%, 434%);
+}
+.sit {
+  width: 40%;
+  height: auto;
+  position: absolute;
+  transform: translate(16%, 15%);
 }
