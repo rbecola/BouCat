@@ -41,35 +41,65 @@ body {
   width: 100%;
   vertical-align: top;
 }
-.column_4 { /*  */
+.column_4 {
   display: inline-block;
   margin-top: -12%;   /* чтобы колонка прилипала к колонке */
   height: 23.9%;
   width: 100%;
   vertical-align: top;
 }
-.column_5 { /*  */
+.column_5 {
   display: inline-block;
   margin-top: -12.9%;   /* чтобы колонка прилипала к колонке */
   height: 30.45%;
   width: 100%;
   vertical-align: top;
 }
-.column_6 { /*  */
+.column_6 {
   display: inline-block;
   margin-top: -18.3%;   /* чтобы колонка прилипала к колонке */
   height: 19%;
   width: 100%;
   vertical-align: top;
 }
-.column_7 { /*  */
+
+
+
+
+
+.lines {
+  display: flex;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  /* width:150% ; */
+  height: 154%;
+  left: 83.6%;
+  top: -47.5%;
+}
+
+.catt{
+  display: flex;
+  position: relative;
+  /* width:10% ; */
+  height: 130%;
+  left: 68.77%;
+  top: -330%;
+  margin: none;
+  padding: 0;
+}
+
+
+
+.column_7 {
   display: inline-block;
+  /* если поставишь маргин -7% и ниже, то весь нижний ряд подвинется */
   margin-top: -1.5%;   /* чтобы колонка прилипала к колонке */
   height: 33.5%;
   width: 100%;
   vertical-align: top;
 }
-.column_8 { /*  */
+.column_8 {
   display: inline-block;
   margin-top: -1%;   /* чтобы колонка прилипала к колонке */
   height: 8.1%;
@@ -102,16 +132,49 @@ body {
   vertical-align: top;
   background-color: #C4C4C4;
 }
-#sq2:hover #cube {
-    background-color: yellow;
-}
 .sq3 {
   width: 33.4%;
-  height: 86.75%;
+  height: 100.75%;
   position: relative;
   display: inline-block;
+  left: 66.6%;
+  top: -180%;
   background-color: #FF0000;
+  z-index: 3;
 }
+
+.gun {
+  position: relative;
+  width: 68%;
+  height: 68%;
+/* height: 11.77%; */
+z-index: 1;
+/* float: right; */
+/* left: 205%;
+top: -185%; */
+top: 20%;
+left: 20%;
+}
+
+
+.gun_white {
+  width: 68%;
+  height: 68%;
+  position: relative;
+  top: 10%;
+  left: -10%;
+}
+
+.gun_black {
+  width: 68%;
+  height: 68%;
+  position: relative;
+  top: -50%;
+  left: 35%;
+  /* z-index: 1; */
+}
+
+
 div.sq4, div.sq5 {
   position: relative;
 }
@@ -159,8 +222,8 @@ color: #FFFFFF;
   background-color: #000000;
 }
 .sq7 {
-  width: 33.4%;
-  height: 100%;
+  width: 33%;
+  height: 110%;
   position: relative;
   display: inline-block;
   vertical-align: top;
@@ -188,6 +251,28 @@ color: #000000;
   vertical-align: top;
   background-color: #FF0000;
 }
+
+
+
+.beye {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  left: 199%;
+  top: -116%;
+  z-index: 1;
+}
+
+.ineye {
+  width: 90%;
+  height: 90%;
+  position: relative;
+  left: 205%;
+  top: -15%;
+
+}
+
+
 .sq10 {
   width: 46.6%;
   height: 100%;
@@ -221,7 +306,8 @@ color: #FFFFFF;
 }
 .sq13 {
   width: 33.4%;
-  height: 105%;
+  height: 100%;
+  top: 20%;
   left:46.6%;
   position: relative;
   display: inline-block;
@@ -235,6 +321,7 @@ color: #FFFFFF;
   display: inline-block;
   vertical-align: top;
   background-color: #D8D8D8;
+  top: -450%;
 }
 div.sq14 h2 {
 position:absolute;
@@ -244,17 +331,37 @@ color: #000000;
 }
 .sq15 {
   width: 66.6%;
-  height: 64%;
+  height: 90%;
   position: relative;
   display: inline-block;
   vertical-align: top;
+  text-align: center;
   background-color: #000000;
+    top: -450%;
 }
 .redsquare {
+  position: relative;
   width: 18%;
-  height: 100%;
+  height: 91%;
+  top: -95%;
   background-color: #FF0000;
+  /* z-index: 2; */
 }
+
+
+.lit_cat{
+  position: relative;
+  width: 15%;
+  height: 92%;
+  top: -5%;
+  left: -41%;
+  z-index: 1;
+}
+
+
+
+
+
 div.sq15 h1 {
   color: #FFFFFF;
   position:absolute;
@@ -316,7 +423,7 @@ color: #000000;
 .sq21 {
   width: 100%;
   height: 70%;
-  top: 10%;
+  top: 40%;
   position: relative;
   display: inline-block;
   vertical-align: top;
@@ -362,7 +469,9 @@ color: #000000;
   width: 80%;
   height: auto;
   position: absolute;
-  transform: translate(13%, 12%);
+  left:10%;
+  top:10%;
+
 }
 .t3 {
   width: 10%;
@@ -370,9 +479,14 @@ color: #000000;
   position: absolute;
   transform: translate(910%, 434%);
 }
-.sit {
-  width: 40%;
+.eyes {
+  width: 80%;
   height: auto;
   position: absolute;
-  transform: translate(16%, 15%);
+  transform: translate(11%, 300%);
+  z-index: 1;
+}
+
+.glasses {
+z-index: 2;
 }
