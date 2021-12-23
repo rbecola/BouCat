@@ -2,7 +2,6 @@
 @import "layout.css";
 @import "content.css";
 @import "animation.css";
-@import "adaptive.css";
 @font-face {
    font-family: 'Eldwin Regular';
    src:url("../fonts/Eldwin-CapitalsRegular.otf") format('opentype');
