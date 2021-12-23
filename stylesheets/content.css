@@ -41,35 +41,35 @@ body {
   width: 100%;
   vertical-align: top;
 }
-.column_4 { /*  */
+.column_4 {
   display: inline-block;
   margin-top: -12%;   /* чтобы колонка прилипала к колонке */
   height: 23.9%;
   width: 100%;
   vertical-align: top;
 }
-.column_5 { /*  */
+.column_5 {
   display: inline-block;
   margin-top: -12.9%;   /* чтобы колонка прилипала к колонке */
   height: 30.45%;
   width: 100%;
   vertical-align: top;
 }
-.column_6 { /*  */
+.column_6 {
   display: inline-block;
   margin-top: -18.3%;   /* чтобы колонка прилипала к колонке */
   height: 19%;
   width: 100%;
   vertical-align: top;
 }
-.column_7 { /*  */
+.column_7 {
   display: inline-block;
   margin-top: -1.5%;   /* чтобы колонка прилипала к колонке */
   height: 33.5%;
   width: 100%;
   vertical-align: top;
 }
-.column_8 { /*  */
+.column_8 {
   display: inline-block;
   margin-top: -1%;   /* чтобы колонка прилипала к колонке */
   height: 8.1%;
@@ -101,9 +101,6 @@ body {
   display: inline-block;
   vertical-align: top;
   background-color: #C4C4C4;
-}
-#sq2:hover #cube {
-    background-color: yellow;
 }
 .sq3 {
   width: 33.4%;
@@ -370,9 +367,10 @@ color: #000000;
   position: absolute;
   transform: translate(910%, 434%);
 }
-.sit {
-  width: 40%;
+.eyes {
+  width: 80%;
   height: auto;
   position: absolute;
-  transform: translate(16%, 15%);
+  transform: translate(11%, 300%);
+  z-index: 1;
 }
