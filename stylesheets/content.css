@@ -357,7 +357,7 @@ color: #000000;
   width: 80%;
   height: auto;
   position: absolute;
-  transform: translate(11%, 300%);
+  transform: translate(11%, 350%);
   z-index: 1;
 }
 .glasses {
