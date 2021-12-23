@@ -195,10 +195,10 @@ color: #000000;
   background-color: #797979;
 }
 .gun2 {
-  width: 80%;
+  width: 70%;
   height: auto;
   position: relative;
-  transform: translate(10%, -2%);
+  transform: translate(20%, 4%);
 }
 .sq11 {
   width: 20%;
@@ -373,7 +373,7 @@ color: #000000;
   width: 100%;
   height: auto;
   position: relative;
-  transform: translate(0, 5%);
+  transform: translate(-0.5%, 5%);
 }
 .strips {
   width: 50%;
