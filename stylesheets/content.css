@@ -362,3 +362,9 @@ color: #000000;
 .glasses {
   z-index: 2;
 }
+.cat {
+  width: 100%;
+  height: auto;
+  position: relative;
+  transform: translate(5%, -20%);
+}
