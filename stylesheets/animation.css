@@ -1,0 +1,82 @@
+.circles {
+  position:absolute;
+  width: 100%; height: 100%;
+  background: url("../images/90.svg");
+  overflow: hidden;
+  background-size: cover;
+  animation: circles 10s linear infinite;
+}
+@keyframes circles {
+  from { background-position: 0 0; }
+  to { background-position: 100% 0; }
+}
+.circles2 {
+  position:absolute;
+  width: 100%; height: 100%;
+  background: url("../images/circles.svg");
+  overflow: hidden;
+  background-size: cover;
+  animation: circles2 8s linear infinite;
+}
+@keyframes circles2 {
+  from { background-position: 100% 0; }
+  to { background-position: 0 0; }
+}
+
+.cat_circle_container {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.cat_circle_image {
+  position: absolute;
+  width: 60%;
+  height: 100%;
+  background-image: url("../images/102.svg");
+  overflow: hidden;
+  background-size: cover;
+  margin-left: 20%;
+  animation: move_cat_circles 7s linear infinite;
+}
+@keyframes move_cat_circles {
+  from {background-position: 0 100%;}
+  to {background-position: 0 0;}
+}
+.cat_circle_image:hover {
+  animation-play-state: paused;
+}
+
+.glasses {
+  position: absolute;
+  left: 4%;
+  top: 0%;
+  width: 90%;
+  height: 90%;
+  animation: move_glasses 3s ease-in infinite;
+}
+.glasses:hover {
+  animation-play-state: paused;
+}
+.call:hover {
+  animation: call 1s ease infinite;
+}
+    @keyframes call {
+    30% {transform: scale(0.6);}
+    40%, 60% {transform: rotate(-20deg) scale(1.1);}
+    50% {transform: rotate(20deg) scale(1.1);}
+    70% {transform: rotate(0deg) scale(1.1);}
+    100% {transform: scale(1);}
+    }
+@keyframes move_glasses {
+  0% {
+    top: 10%;
+  }
+  50% {
+    top: -20%;
+  }
+  100% {
+    top: 10%;
+  }
+}
