@@ -194,6 +194,12 @@ color: #000000;
   vertical-align: top;
   background-color: #797979;
 }
+.gun2 {
+  width: 80%;
+  height: auto;
+  position: relative;
+  transform: translate(10%, -2%);
+}
 .sq11 {
   width: 20%;
   height: 47%;
