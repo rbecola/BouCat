@@ -184,6 +184,7 @@ color: #000000;
   display: inline-block;
   vertical-align: top;
   background-color: #FF0000;
+  z-index: 1;
 }
 .sq10 {
   width: 46.6%;
@@ -362,9 +363,15 @@ color: #000000;
 .glasses {
   z-index: 2;
 }
-.cat {
+.cat4 {
   width: 100%;
   height: auto;
   position: relative;
-  transform: translate(5%, -20%);
+  transform: translate(0, 5%);
+}
+.strips {
+  width: 50%;
+  height: auto;
+  position: absolute;
+  transform: translate(100.5%, -2%);
 }
